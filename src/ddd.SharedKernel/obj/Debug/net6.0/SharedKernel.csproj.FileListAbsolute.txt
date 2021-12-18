@@ -1,0 +1,12 @@
+D:\git\ddd-calibration\src\ddd.SharedKernel\bin\Debug\net6.0\SharedKernel.deps.json
+D:\git\ddd-calibration\src\ddd.SharedKernel\bin\Debug\net6.0\SharedKernel.dll
+D:\git\ddd-calibration\src\ddd.SharedKernel\bin\Debug\net6.0\ref\SharedKernel.dll
+D:\git\ddd-calibration\src\ddd.SharedKernel\bin\Debug\net6.0\SharedKernel.pdb
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.csproj.AssemblyReference.cache
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.AssemblyInfoInputs.cache
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.AssemblyInfo.cs
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.csproj.CoreCompileInputs.cache
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.dll
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\ref\SharedKernel.dll
+D:\git\ddd-calibration\src\ddd.SharedKernel\obj\Debug\net6.0\SharedKernel.pdb

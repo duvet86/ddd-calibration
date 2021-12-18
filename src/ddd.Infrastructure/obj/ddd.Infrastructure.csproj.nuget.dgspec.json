@@ -4,12 +4,12 @@
     "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj": {
+    "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
-        "projectName": "ddd.Core",
-        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
+        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
         "outputPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -116,8 +116,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj": {
-                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj"
+              "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj": {
+                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj"
               },
               "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj": {
                 "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj"
@@ -153,16 +153,16 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "NETStandard.Library": {
               "target": "Package",

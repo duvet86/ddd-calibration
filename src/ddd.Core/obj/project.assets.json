@@ -71,7 +71,7 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
-      "ddd.SharedKernel/1.0.0": {
+      "SharedKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -79,10 +79,10 @@
           "MediatR": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/ddd.SharedKernel.dll": {}
+          "bin/placeholder/SharedKernel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.SharedKernel.dll": {}
+          "bin/placeholder/SharedKernel.dll": {}
         }
       }
     }
@@ -220,10 +220,10 @@
         "version.txt"
       ]
     },
-    "ddd.SharedKernel/1.0.0": {
+    "SharedKernel/1.0.0": {
       "type": "project",
-      "path": "../ddd.SharedKernel/ddd.SharedKernel.csproj",
-      "msbuildProject": "../ddd.SharedKernel/ddd.SharedKernel.csproj"
+      "path": "../ddd.SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../ddd.SharedKernel/SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -233,7 +233,7 @@
       "Ardalis.Specification >= 5.2.0",
       "Autofac >= 6.3.0",
       "MediatR >= 9.0.0",
-      "ddd.SharedKernel >= 1.0.0"
+      "SharedKernel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -243,9 +243,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
-      "projectName": "ddd.Core",
-      "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
+      "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
+      "projectName": "Core",
+      "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
       "outputPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\obj\\",
       "projectStyle": "PackageReference",
@@ -268,8 +268,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj": {
-              "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj"
+            "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj": {
+              "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj"
             }
           }
         }

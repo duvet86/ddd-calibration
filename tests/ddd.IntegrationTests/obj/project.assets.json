@@ -436,7 +436,7 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.HttpOverrides.dll": {}
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/6.0.0": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -488,10 +488,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.0",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.1",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -505,10 +505,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.Mvc.Testing/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.Testing/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.TestHost": "6.0.0",
+          "Microsoft.AspNetCore.TestHost": "6.0.1",
           "Microsoft.Extensions.DependencyModel": "6.0.0",
           "Microsoft.Extensions.Hosting": "6.0.0"
         },
@@ -604,10 +604,10 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
-      "Microsoft.AspNetCore.TestHost/6.0.0": {
+      "Microsoft.AspNetCore.TestHost/6.0.1": {
         "type": "package",
         "dependencies": {
-          "System.IO.Pipelines": "6.0.0"
+          "System.IO.Pipelines": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.TestHost.dll": {}
@@ -783,7 +783,7 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite.Core/6.0.0": {
+      "Microsoft.Data.Sqlite.Core/6.0.1": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.6"
@@ -827,11 +827,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/6.0.0": {
+      "Microsoft.EntityFrameworkCore/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.1",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.1",
           "Microsoft.Extensions.Caching.Memory": "6.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -845,7 +845,7 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -854,7 +854,7 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -863,10 +863,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/6.0.0": {
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0"
+          "Microsoft.EntityFrameworkCore": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
@@ -875,10 +875,10 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Relational/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
@@ -888,10 +888,10 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.1",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6"
         },
         "compile": {
@@ -901,11 +901,11 @@
           "lib/net6.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Data.Sqlite.Core": "6.0.1",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.1",
           "Microsoft.Extensions.DependencyModel": "6.0.0"
         },
         "compile": {
@@ -915,11 +915,11 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -1995,7 +1995,7 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
-      "ReportGenerator/4.8.13": {
+      "ReportGenerator/5.0.0": {
         "type": "package",
         "build": {
           "build/netstandard2.0/_._": {}
@@ -3103,7 +3103,7 @@
           }
         }
       },
-      "System.IO.Pipelines/6.0.0": {
+      "System.IO.Pipelines/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.IO.Pipelines.dll": {}
@@ -4453,7 +4453,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "ddd.Core/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -4462,16 +4462,16 @@
           "Ardalis.Specification": "5.2.0",
           "Autofac": "6.3.0",
           "MediatR": "9.0.0",
-          "ddd.SharedKernel": "1.0.0"
+          "SharedKernel": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ddd.Core.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.Core.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       },
-      "ddd.Infrastructure/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -4479,21 +4479,21 @@
           "Ardalis.Specification.EntityFrameworkCore": "5.2.0",
           "Autofac": "6.3.0",
           "Autofac.Extensions.DependencyInjection": "7.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0",
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.1",
           "NETStandard.Library": "2.0.3",
           "SQLite": "3.13.0",
-          "ddd.Core": "1.0.0",
-          "ddd.SharedKernel": "1.0.0"
+          "SharedKernel": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ddd.Infrastructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.Infrastructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       },
-      "ddd.SharedKernel/1.0.0": {
+      "SharedKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -4501,30 +4501,30 @@
           "MediatR": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/ddd.SharedKernel.dll": {}
+          "bin/placeholder/SharedKernel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.SharedKernel.dll": {}
+          "bin/placeholder/SharedKernel.dll": {}
         }
       },
-      "ddd.UnitTests/1.0.0": {
+      "UnitTests/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "Moq": "4.16.1",
-          "ReportGenerator": "4.8.13",
-          "ddd.Web": "1.0.0",
+          "ReportGenerator": "5.0.0",
+          "Web": "1.0.0",
           "xunit": "2.4.1"
         },
         "compile": {
-          "bin/placeholder/ddd.UnitTests.dll": {}
+          "bin/placeholder/UnitTests.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.UnitTests.dll": {}
+          "bin/placeholder/UnitTests.dll": {}
         }
       },
-      "ddd.Web/1.0.0": {
+      "Web/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -4532,19 +4532,19 @@
           "Ardalis.ListStartupServices": "1.1.3",
           "Ardalis.Result": "3.1.2",
           "Ardalis.Result.AspNetCore": "3.0.1",
+          "Infrastructure": "1.0.0",
           "MediatR": "9.0.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.1",
           "NETStandard.Library": "2.0.3",
           "Serilog.AspNetCore": "4.1.0",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "Swashbuckle.AspNetCore.Annotations": "6.2.3",
-          "ddd.Infrastructure": "1.0.0"
+          "Swashbuckle.AspNetCore.Annotations": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/ddd.Web.dll": {}
+          "bin/placeholder/Web.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ddd.Web.dll": {}
+          "bin/placeholder/Web.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -5048,10 +5048,10 @@
         "microsoft.aspnetcore.httpoverrides.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.JsonPatch/6.0.0": {
-      "sha512": "SUiwg0XQ5NtmnELHXSdX4mAwawFnAOwSx2Zz6NIhQnEN1tZDoAWEHc8dS/S7y8cE52+9bHj+XbYZuLGF7OrQPA==",
+    "Microsoft.AspNetCore.JsonPatch/6.0.1": {
+      "sha512": "vLgQbgudEQfGNaGyAvm+jlfLHu5Ynav8/RnhwM0QaKFjVW2crEOGm7tRHHjM5iofF8VZnEYfyvUvyK82dBej1w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.0",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5063,7 +5063,7 @@
         "lib/net6.0/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
@@ -5093,10 +5093,10 @@
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.0": {
-      "sha512": "YMwSWgBuwkVn9k4/2wWxfwEbx8T5Utj13UH/zmUm5lbkKcY+tJyt9w9P4rY5pO1XtCitoh1+L+Feqz9qxG/CvA==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.1": {
+      "sha512": "UMMDrtDzY1tug3Q6RFmgtknJ65nj3IxI/iVqrRFwKDIeiiBc8DMfxS1cZPWfaGmPfVulgaa8qHvQijaLpa8p7Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5104,14 +5104,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Testing/6.0.0": {
-      "sha512": "5knNtILnJNAc0z9vAEgQ9ykxWsjWlRWys3YWDOIpKVn9Rku2Z217sztp5Ei8VOieBkpti6iN3CIPU8Ss+tun0w==",
+    "Microsoft.AspNetCore.Mvc.Testing/6.0.1": {
+      "sha512": "D3DXgO3Yser3etw+CYqdTAp9xScsi5t3wjf7aLRiyQuuf40GEBBEsppq97Zj1hYKNWLENKPGKVDcD6FImFziDQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.testing/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.testing/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5121,7 +5121,7 @@
         "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Testing.targets",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Testing.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Testing.xml",
-        "microsoft.aspnetcore.mvc.testing.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.testing.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.mvc.testing.nuspec",
         "tasks/netstandard2.0/Microsoft.AspNetCore.Mvc.Testing.Tasks.dll"
       ]
@@ -5197,10 +5197,10 @@
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.TestHost/6.0.0": {
-      "sha512": "2DuXITuWi68rSU5Gpg4QO3qec3pT5z/VrarGCm9ORROiZ9jdYvPpTukKWVVoAkD+oD8uQloLJod8GL47PvD33A==",
+    "Microsoft.AspNetCore.TestHost/6.0.1": {
+      "sha512": "bHrqfRVVxvvjYcvGH4ITEG4p2+b6kJrglMyV1/eLmo9s+LC8L0DD7w4yQGHB0IAiaeSHpMeXuC0u7++M+T17tQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.testhost/6.0.0",
+      "path": "microsoft.aspnetcore.testhost/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5208,7 +5208,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.TestHost.dll",
         "lib/net6.0/Microsoft.AspNetCore.TestHost.xml",
-        "microsoft.aspnetcore.testhost.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.testhost.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.testhost.nuspec"
       ]
     },
@@ -5516,10 +5516,10 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/6.0.0": {
-      "sha512": "X6MCFkzJOBkcgzT00Bh7SAqbLM2rPuHgCWMivSRiZ0VGVfgf/l8nwGDe9wYSSjXVdw95JUggvWOQLcNfbBFuLA==",
+    "Microsoft.Data.Sqlite.Core/6.0.1": {
+      "sha512": "Z8MIjWmzxUjcc2HKTKFHfo7jqqVeVftkigrojGY4zEN8OwjLgJNb5/BqW3J2FiIiCrPBDGNkiVlOERazGfLizg==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/6.0.0",
+      "path": "microsoft.data.sqlite.core/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5528,7 +5528,7 @@
         "lib/net6.0/Microsoft.Data.Sqlite.xml",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
+        "microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -5550,114 +5550,114 @@
         "runtimes/win8-arm/native/Microsoft.DiaSymReader.Native.arm.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/6.0.0": {
-      "sha512": "BdHAtHzfQt3rltgSoYamSlHg2qawPtEDT677/bcSJlO8lQ/lj6XWlusM0TOt59O8Sbqm3hAC1a+4cEBxmv56pw==",
+    "Microsoft.EntityFrameworkCore/6.0.1": {
+      "sha512": "UmZBVaRbOgtbYkp4x8W9j8HBd7ywzPRPj5StSiqFt/nsH6nOf1eQmHFfjIRb70cxsuC0NbkFBAAoUHFRCscCKA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/6.0.0",
+      "path": "microsoft.entityframeworkcore/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
-      "sha512": "MrMLWEw4JsZdkVci0MkkGj+fSjZrXnm3m6UNuIEwytiAAIZPvJs3iPpnzfK4qM7np82W374voYm96q7QCdL0ow==",
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.1": {
+      "sha512": "JM55+h9Ln9MZAFikvmgrmDoIt4Zz9ZWZpNrmyi9QTVuJMzQQOEnJkISKp5Ebvpno6Jt00Gkrfmvu8K5mFPO+dA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.0",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
-      "sha512": "BqWBL05PUDKwPwLeQCJdc2R4cIUycXV9UmuSjYfux2fcgyet8I2eYnOWlA7NgsDwRVcxW26vxvNQ0wuc8UAcLA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.1": {
+      "sha512": "fp8VTLv1up7EGAa9Daf+IErpq63hiKtWeApoxgnkMjURdjkbVcwaA4AozwHjEqVVQugGqwroHes4HVp24cDDAw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.0",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.InMemory/6.0.0": {
-      "sha512": "WJmphvCn0wue9AX+Wvqj3XZ3ehNi9oyYBFNLtHVNvKqZrcimXBOqLo5RNf1fJWYSLWhOia/vzG4JtkAeZxZ8FQ==",
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.1": {
+      "sha512": "ORvH+p+Qu8Lr08gRidXy3BxGXVFEccKi+JTkEtLuKvDJbQ4KICW1YMjI47A/vWnJIB915zz2zDN8YeJfiEkVxg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/6.0.0",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
-      "sha512": "rTRzrSbkUXoCGijlT9O7oq7JfuaU1/+VFyfSBjADQuOsfa0FCrWeB8ybue5CDvO/D6uW0kvPvlKfY2kwxXOOdg==",
+    "Microsoft.EntityFrameworkCore.Relational/6.0.1": {
+      "sha512": "abaCEEeeB0xlMYDD+m9kmhQh5aipJ5s3UbyQVBfMaZeCiZHXST0eWuJRX63E3e7K/mju5WEHiybV/hizng7q/w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/6.0.0",
+      "path": "microsoft.entityframeworkcore.relational/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/6.0.0": {
-      "sha512": "VwNbLaMpDD9s/tVmK/sivJsYoXdM3ARBjWMtFUXVExZ6AgZxPwSgILF2J4Y9CRvf/r6A0xitvFXQO6HPrZnwrg==",
+    "Microsoft.EntityFrameworkCore.Sqlite/6.0.1": {
+      "sha512": "29UZGMH/OquRfEQH6FskLC0hvFgCgbAQDSkXXiskzGQsK54w4EmeGd7Mn1hxHZ3Fl7u7PLCEfKnl+bCsZsqvbg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/6.0.0",
+      "path": "microsoft.entityframeworkcore.sqlite/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.sqlite.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.0": {
-      "sha512": "cx55qNWk5JmUMZgMfGvfwodW2z/t3Kix7Fbso9BxCPnPVaiVm8k9C4QLjegqJVvuRAA7RZigMYAqeRZ9Q4fWWQ==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.1": {
+      "sha512": "Q9Y+hGdv8dZzR/Vx9HeGxeIPEZeARJJuroWYv7NaZcikgfXPp6PjKq5OriaJEu2AkDYDojhrqSx4a398HhSnhw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/6.0.0",
+      "path": "microsoft.entityframeworkcore.sqlite.core/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
-      "sha512": "1rYYHrvOIN1bXyN9qAVd0WhmTjbZNosyrMoAL4wRiw5pu65QazwjuVV6K1IWKD4AXPxQD7+k4CxAMVTPY//UrA==",
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.1": {
+      "sha512": "bXmFi9F7GHT0dMUvuT2b5Pf8TtPnU6sQxZ5pvf3UElva+cD0YqsGI5bJGTx21pcMdw3bVhqzCLrpfA/zgHFyMw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.0",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -7505,10 +7505,10 @@
         "nuget.frameworks.nuspec"
       ]
     },
-    "ReportGenerator/4.8.13": {
-      "sha512": "mE3dBdsNpJ2ldjN4KcE+KsAwODdGIsLbbs4/YBvdn0LGzn2g3ugTZ7A6/ZBb4ofBZrcvSZpYNzvS93XPE2je6w==",
+    "ReportGenerator/5.0.0": {
+      "sha512": "3MplI53TO6tUnNqm95IosQArFZYsSeayZMTKsdZiKNtdsD8Yf5RmzFqZJwnuwcJuEsWTc2GQNuE9qFJMaYf3ZA==",
       "type": "package",
-      "path": "reportgenerator/4.8.13",
+      "path": "reportgenerator/5.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -7517,7 +7517,7 @@
         "Readme.txt",
         "build/netstandard2.0/ReportGenerator.props",
         "icon.png",
-        "reportgenerator.4.8.13.nupkg.sha512",
+        "reportgenerator.5.0.0.nupkg.sha512",
         "reportgenerator.nuspec",
         "tools/net47/DotNetConfig.dll",
         "tools/net47/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -7533,10 +7533,10 @@
         "tools/net47/Microsoft.Extensions.FileProviders.Physical.dll",
         "tools/net47/Microsoft.Extensions.FileSystemGlobbing.dll",
         "tools/net47/Microsoft.Extensions.Primitives.dll",
+        "tools/net47/Microsoft.NET.StringTools.net35.dll",
         "tools/net47/Microsoft.Win32.Primitives.dll",
         "tools/net47/Microsoft.Win32.Registry.dll",
         "tools/net47/ReportGenerator.Core.dll",
-        "tools/net47/ReportGenerator.MSBuild.dll",
         "tools/net47/ReportGenerator.exe",
         "tools/net47/ReportGenerator.exe.config",
         "tools/net47/SixLabors.Fonts.dll",
@@ -7553,6 +7553,7 @@
         "tools/net47/System.ComponentModel.Primitives.dll",
         "tools/net47/System.ComponentModel.TypeConverter.dll",
         "tools/net47/System.ComponentModel.dll",
+        "tools/net47/System.Configuration.ConfigurationManager.dll",
         "tools/net47/System.Console.dll",
         "tools/net47/System.Data.Common.dll",
         "tools/net47/System.Diagnostics.Contracts.dll",
@@ -7666,166 +7667,114 @@
         "tools/net5.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "tools/net5.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "tools/net5.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net5.0/Microsoft.NET.StringTools.dll",
         "tools/net5.0/Microsoft.Win32.SystemEvents.dll",
         "tools/net5.0/ReportGenerator.Core.dll",
-        "tools/net5.0/ReportGenerator.Core.pdb",
         "tools/net5.0/ReportGenerator.DotnetCorePluginLoader.dll",
-        "tools/net5.0/ReportGenerator.DotnetCorePluginLoader.pdb",
         "tools/net5.0/ReportGenerator.MSBuild.dll",
-        "tools/net5.0/ReportGenerator.MSBuild.pdb",
         "tools/net5.0/ReportGenerator.deps.json",
         "tools/net5.0/ReportGenerator.dll",
         "tools/net5.0/ReportGenerator.exe",
-        "tools/net5.0/ReportGenerator.pdb",
         "tools/net5.0/ReportGenerator.runtimeconfig.json",
         "tools/net5.0/SixLabors.Fonts.dll",
         "tools/net5.0/SixLabors.ImageSharp.Drawing.dll",
         "tools/net5.0/SixLabors.ImageSharp.dll",
+        "tools/net5.0/System.Configuration.ConfigurationManager.dll",
         "tools/net5.0/System.Drawing.Common.dll",
+        "tools/net5.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net5.0/System.Security.Cryptography.ProtectedData.dll",
         "tools/net5.0/System.Security.Permissions.dll",
         "tools/net5.0/System.Text.Encodings.Web.dll",
+        "tools/net5.0/System.Text.Json.dll",
         "tools/net5.0/System.Windows.Extensions.dll",
         "tools/net5.0/appsettings.json",
         "tools/net5.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
         "tools/net5.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
         "tools/net5.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
         "tools/net5.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
-        "tools/netcoreapp2.0/DotNetConfig.dll",
-        "tools/netcoreapp2.0/McMaster.NETCore.Plugins.dll",
-        "tools/netcoreapp2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "tools/netcoreapp2.0/Microsoft.Build.Framework.dll",
-        "tools/netcoreapp2.0/Microsoft.Build.Utilities.Core.dll",
-        "tools/netcoreapp2.0/Microsoft.DotNet.PlatformAbstractions.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Configuration.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.DependencyModel.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/netcoreapp2.0/Microsoft.Extensions.Primitives.dll",
-        "tools/netcoreapp2.0/ReportGenerator.Core.dll",
-        "tools/netcoreapp2.0/ReportGenerator.Core.pdb",
-        "tools/netcoreapp2.0/ReportGenerator.DotnetCorePluginLoader.dll",
-        "tools/netcoreapp2.0/ReportGenerator.DotnetCorePluginLoader.pdb",
-        "tools/netcoreapp2.0/ReportGenerator.MSBuild.dll",
-        "tools/netcoreapp2.0/ReportGenerator.MSBuild.pdb",
-        "tools/netcoreapp2.0/ReportGenerator.deps.json",
-        "tools/netcoreapp2.0/ReportGenerator.dll",
-        "tools/netcoreapp2.0/ReportGenerator.pdb",
-        "tools/netcoreapp2.0/ReportGenerator.runtimeconfig.json",
-        "tools/netcoreapp2.0/SixLabors.Fonts.dll",
-        "tools/netcoreapp2.0/SixLabors.ImageSharp.Drawing.dll",
-        "tools/netcoreapp2.0/SixLabors.ImageSharp.dll",
-        "tools/netcoreapp2.0/System.Collections.Immutable.dll",
-        "tools/netcoreapp2.0/System.Memory.dll",
-        "tools/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/netcoreapp2.0/System.Security.AccessControl.dll",
-        "tools/netcoreapp2.0/System.Security.Permissions.dll",
-        "tools/netcoreapp2.0/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.0/System.Text.Encodings.Web.dll",
-        "tools/netcoreapp2.0/System.Text.Json.dll",
-        "tools/netcoreapp2.0/System.Threading.Tasks.Extensions.dll",
-        "tools/netcoreapp2.0/appsettings.json",
-        "tools/netcoreapp2.0/runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.0/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "tools/netcoreapp2.0/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
-        "tools/netcoreapp2.0/runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.0/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "tools/netcoreapp2.1/DotNetConfig.dll",
-        "tools/netcoreapp2.1/McMaster.NETCore.Plugins.dll",
-        "tools/netcoreapp2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "tools/netcoreapp2.1/Microsoft.Build.Framework.dll",
-        "tools/netcoreapp2.1/Microsoft.Build.Utilities.Core.dll",
-        "tools/netcoreapp2.1/Microsoft.DotNet.PlatformAbstractions.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Configuration.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.DependencyModel.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/netcoreapp2.1/Microsoft.Extensions.Primitives.dll",
-        "tools/netcoreapp2.1/ReportGenerator.Core.dll",
-        "tools/netcoreapp2.1/ReportGenerator.Core.pdb",
-        "tools/netcoreapp2.1/ReportGenerator.DotnetCorePluginLoader.dll",
-        "tools/netcoreapp2.1/ReportGenerator.DotnetCorePluginLoader.pdb",
-        "tools/netcoreapp2.1/ReportGenerator.MSBuild.dll",
-        "tools/netcoreapp2.1/ReportGenerator.MSBuild.pdb",
-        "tools/netcoreapp2.1/ReportGenerator.deps.json",
-        "tools/netcoreapp2.1/ReportGenerator.dll",
-        "tools/netcoreapp2.1/ReportGenerator.pdb",
-        "tools/netcoreapp2.1/ReportGenerator.runtimeconfig.json",
-        "tools/netcoreapp2.1/SixLabors.Fonts.dll",
-        "tools/netcoreapp2.1/SixLabors.ImageSharp.Drawing.dll",
-        "tools/netcoreapp2.1/SixLabors.ImageSharp.dll",
-        "tools/netcoreapp2.1/System.Collections.Immutable.dll",
-        "tools/netcoreapp2.1/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/netcoreapp2.1/System.Security.AccessControl.dll",
-        "tools/netcoreapp2.1/System.Security.Permissions.dll",
-        "tools/netcoreapp2.1/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.1/System.Text.Encodings.Web.dll",
-        "tools/netcoreapp2.1/System.Text.Json.dll",
-        "tools/netcoreapp2.1/appsettings.json",
-        "tools/netcoreapp2.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.1/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "tools/netcoreapp2.1/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
-        "tools/netcoreapp2.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp2.1/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "tools/netcoreapp3.0/DotNetConfig.dll",
-        "tools/netcoreapp3.0/McMaster.NETCore.Plugins.dll",
-        "tools/netcoreapp3.0/Microsoft.Build.Framework.dll",
-        "tools/netcoreapp3.0/Microsoft.Build.Utilities.Core.dll",
-        "tools/netcoreapp3.0/Microsoft.DotNet.PlatformAbstractions.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Configuration.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.DependencyModel.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
-        "tools/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "tools/netcoreapp3.0/ReportGenerator.Core.dll",
-        "tools/netcoreapp3.0/ReportGenerator.Core.pdb",
-        "tools/netcoreapp3.0/ReportGenerator.DotnetCorePluginLoader.dll",
-        "tools/netcoreapp3.0/ReportGenerator.DotnetCorePluginLoader.pdb",
-        "tools/netcoreapp3.0/ReportGenerator.MSBuild.dll",
-        "tools/netcoreapp3.0/ReportGenerator.MSBuild.pdb",
-        "tools/netcoreapp3.0/ReportGenerator.deps.json",
-        "tools/netcoreapp3.0/ReportGenerator.dll",
-        "tools/netcoreapp3.0/ReportGenerator.exe",
-        "tools/netcoreapp3.0/ReportGenerator.pdb",
-        "tools/netcoreapp3.0/ReportGenerator.runtimeconfig.json",
-        "tools/netcoreapp3.0/SixLabors.Fonts.dll",
-        "tools/netcoreapp3.0/SixLabors.ImageSharp.Drawing.dll",
-        "tools/netcoreapp3.0/SixLabors.ImageSharp.dll",
-        "tools/netcoreapp3.0/System.Collections.Immutable.dll",
-        "tools/netcoreapp3.0/System.Drawing.Common.dll",
-        "tools/netcoreapp3.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/netcoreapp3.0/System.Security.AccessControl.dll",
-        "tools/netcoreapp3.0/System.Security.Permissions.dll",
-        "tools/netcoreapp3.0/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp3.0/System.Text.Encodings.Web.dll",
-        "tools/netcoreapp3.0/System.Text.Json.dll",
-        "tools/netcoreapp3.0/System.Windows.Extensions.dll",
-        "tools/netcoreapp3.0/appsettings.json",
-        "tools/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp3.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "tools/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
-        "tools/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
-        "tools/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "tools/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "tools/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll"
+        "tools/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net6.0/DotNetConfig.dll",
+        "tools/net6.0/McMaster.NETCore.Plugins.dll",
+        "tools/net6.0/Microsoft.Build.Framework.dll",
+        "tools/net6.0/Microsoft.Build.Utilities.Core.dll",
+        "tools/net6.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.dll",
+        "tools/net6.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net6.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net6.0/Microsoft.NET.StringTools.dll",
+        "tools/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "tools/net6.0/ReportGenerator.Core.dll",
+        "tools/net6.0/ReportGenerator.DotnetCorePluginLoader.dll",
+        "tools/net6.0/ReportGenerator.MSBuild.dll",
+        "tools/net6.0/ReportGenerator.deps.json",
+        "tools/net6.0/ReportGenerator.dll",
+        "tools/net6.0/ReportGenerator.exe",
+        "tools/net6.0/ReportGenerator.runtimeconfig.json",
+        "tools/net6.0/SixLabors.Fonts.dll",
+        "tools/net6.0/SixLabors.ImageSharp.Drawing.dll",
+        "tools/net6.0/SixLabors.ImageSharp.dll",
+        "tools/net6.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net6.0/System.Drawing.Common.dll",
+        "tools/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net6.0/System.Security.Permissions.dll",
+        "tools/net6.0/System.Windows.Extensions.dll",
+        "tools/net6.0/appsettings.json",
+        "tools/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "tools/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "tools/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp3.1/DotNetConfig.dll",
+        "tools/netcoreapp3.1/McMaster.NETCore.Plugins.dll",
+        "tools/netcoreapp3.1/Microsoft.Build.Framework.dll",
+        "tools/netcoreapp3.1/Microsoft.Build.Utilities.Core.dll",
+        "tools/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "tools/netcoreapp3.1/Microsoft.NET.StringTools.dll",
+        "tools/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "tools/netcoreapp3.1/ReportGenerator.Core.dll",
+        "tools/netcoreapp3.1/ReportGenerator.DotnetCorePluginLoader.dll",
+        "tools/netcoreapp3.1/ReportGenerator.MSBuild.dll",
+        "tools/netcoreapp3.1/ReportGenerator.deps.json",
+        "tools/netcoreapp3.1/ReportGenerator.dll",
+        "tools/netcoreapp3.1/ReportGenerator.exe",
+        "tools/netcoreapp3.1/ReportGenerator.runtimeconfig.json",
+        "tools/netcoreapp3.1/SixLabors.Fonts.dll",
+        "tools/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll",
+        "tools/netcoreapp3.1/SixLabors.ImageSharp.dll",
+        "tools/netcoreapp3.1/System.Collections.Immutable.dll",
+        "tools/netcoreapp3.1/System.Configuration.ConfigurationManager.dll",
+        "tools/netcoreapp3.1/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp3.1/System.Security.Permissions.dll",
+        "tools/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "tools/netcoreapp3.1/System.Text.Json.dll",
+        "tools/netcoreapp3.1/System.Windows.Extensions.dll",
+        "tools/netcoreapp3.1/appsettings.json",
+        "tools/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.1": {
@@ -9982,10 +9931,10 @@
         "system.io.memorymappedfiles.nuspec"
       ]
     },
-    "System.IO.Pipelines/6.0.0": {
-      "sha512": "mXX66shZ4xLlI3vNLaJ0lt8OIZdmXTvIqXRdQX5HLVGSkLhINLsVhyZuX2UdRFnOGkqnwmMUs40pIIQ7mna4+A==",
+    "System.IO.Pipelines/6.0.1": {
+      "sha512": "1j1pZX1ICzEyjafyssU3BzWVxUsaN3zq0wEmGKj3bxINC6NkmS30eEVuZ7k/QX2UKYNCaUch6g46taYKxcpFtw==",
       "type": "package",
-      "path": "system.io.pipelines/6.0.0",
+      "path": "system.io.pipelines/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10002,7 +9951,7 @@
         "lib/netcoreapp3.1/System.IO.Pipelines.xml",
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.6.0.0.nupkg.sha512",
+        "system.io.pipelines.6.0.1.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -13459,39 +13408,39 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ddd.Core/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../../src/ddd.Core/ddd.Core.csproj",
-      "msbuildProject": "../../src/ddd.Core/ddd.Core.csproj"
+      "path": "../../src/ddd.Core/Core.csproj",
+      "msbuildProject": "../../src/ddd.Core/Core.csproj"
     },
-    "ddd.Infrastructure/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../../src/ddd.Infrastructure/ddd.Infrastructure.csproj",
-      "msbuildProject": "../../src/ddd.Infrastructure/ddd.Infrastructure.csproj"
+      "path": "../../src/ddd.Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../../src/ddd.Infrastructure/Infrastructure.csproj"
     },
-    "ddd.SharedKernel/1.0.0": {
+    "SharedKernel/1.0.0": {
       "type": "project",
-      "path": "../../src/ddd.SharedKernel/ddd.SharedKernel.csproj",
-      "msbuildProject": "../../src/ddd.SharedKernel/ddd.SharedKernel.csproj"
+      "path": "../../src/ddd.SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../../src/ddd.SharedKernel/SharedKernel.csproj"
     },
-    "ddd.UnitTests/1.0.0": {
+    "UnitTests/1.0.0": {
       "type": "project",
-      "path": "../ddd.UnitTests/ddd.UnitTests.csproj",
-      "msbuildProject": "../ddd.UnitTests/ddd.UnitTests.csproj"
+      "path": "../ddd.UnitTests/UnitTests.csproj",
+      "msbuildProject": "../ddd.UnitTests/UnitTests.csproj"
     },
-    "ddd.Web/1.0.0": {
+    "Web/1.0.0": {
       "type": "project",
-      "path": "../../src/ddd.Web/ddd.Web.csproj",
-      "msbuildProject": "../../src/ddd.Web/ddd.Web.csproj"
+      "path": "../../src/ddd.Web/Web.csproj",
+      "msbuildProject": "../../src/ddd.Web/Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Mvc.Testing >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.0",
+      "Microsoft.AspNetCore.Mvc.Testing >= 6.0.1",
+      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.1",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
+      "UnitTests >= 1.0.0",
       "coverlet.collector >= 3.1.0",
-      "ddd.UnitTests >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -13503,9 +13452,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\ddd-calibration\\tests\\ddd.IntegrationTests\\ddd.IntegrationTests.csproj",
-      "projectName": "ddd.IntegrationTests",
-      "projectPath": "D:\\git\\ddd-calibration\\tests\\ddd.IntegrationTests\\ddd.IntegrationTests.csproj",
+      "projectUniqueName": "D:\\git\\ddd-calibration\\tests\\ddd.IntegrationTests\\IntegrationTests.csproj",
+      "projectName": "IntegrationTests",
+      "projectPath": "D:\\git\\ddd-calibration\\tests\\ddd.IntegrationTests\\IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
       "outputPath": "D:\\git\\ddd-calibration\\tests\\ddd.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -13528,8 +13477,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\git\\ddd-calibration\\tests\\ddd.UnitTests\\ddd.UnitTests.csproj": {
-              "projectPath": "D:\\git\\ddd-calibration\\tests\\ddd.UnitTests\\ddd.UnitTests.csproj"
+            "D:\\git\\ddd-calibration\\tests\\ddd.UnitTests\\UnitTests.csproj": {
+              "projectPath": "D:\\git\\ddd-calibration\\tests\\ddd.UnitTests\\UnitTests.csproj"
             }
           }
         }
@@ -13546,11 +13495,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.1, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

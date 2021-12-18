@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fhCj5yn2B4/midFH3sTOVGOT8S1l5PqJFQxOrl9obbCNbRKUHe1i45h5CELlN3ynKM7G/79KG0lVLA48BW2MA==",
+  "dgSpecHash": "TNmNc6FYmzxE5a9XRFuWbXtr8B+OHnQMZhEfZghy0xZFVLFdJogosaNoaCJQgwsSGlJWIoU7bKNccN8pBP82fQ==",
   "success": true,
-  "projectFilePath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
+  "projectFilePath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luca\\.nuget\\packages\\ardalis.guardclauses\\3.3.0\\ardalis.guardclauses.3.3.0.nupkg.sha512",
     "C:\\Users\\Luca\\.nuget\\packages\\ardalis.result\\3.1.2\\ardalis.result.3.1.2.nupkg.sha512",

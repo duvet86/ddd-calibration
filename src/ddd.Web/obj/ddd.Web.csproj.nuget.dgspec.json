@@ -4,12 +4,12 @@
     "D:\\git\\ddd-calibration\\src\\ddd.Web\\ddd.Web.csproj": {}
   },
   "projects": {
-    "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj": {
+    "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
-        "projectName": "ddd.Core",
-        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj",
+        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
         "outputPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj": {
-                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj"
+              "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -88,12 +88,12 @@
         }
       }
     },
-    "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj": {
+    "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj",
-        "projectName": "ddd.Infrastructure",
-        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj",
+        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
         "outputPath": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -116,8 +116,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj": {
-                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\ddd.Core.csproj"
+              "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj": {
+                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Core\\Core.csproj"
               },
               "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj": {
                 "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj"
@@ -153,16 +153,16 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "NETStandard.Library": {
               "target": "Package",
@@ -260,6 +260,74 @@
         }
       }
     },
+    "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj",
+        "projectName": "SharedKernel",
+        "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\git\\ddd-calibration\\NuGet.Config",
+          "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\git\\ddd-calibration\\src\\ddd.Web\\ddd.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -288,8 +356,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj": {
-                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\ddd.Infrastructure.csproj"
+              "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -326,17 +394,17 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "NETStandard.Library": {
               "target": "Package",
