@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fzWsCamGZZ46kEOGcjnozLs6Zpw7K4JoPTeQ9zCI9sFY5DvMCjySuvBmIa1nKVU30vq1S5bf4NATreSwtUS4jA==",
+  "success": true,
+  "projectFilePath": "D:\\git\\ddd-calibration\\src\\CleanArchi.SharedKernel\\CleanArchi.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luca\\.nuget\\packages\\ardalis.specification\\5.2.0\\ardalis.specification.5.2.0.nupkg.sha512",
+    "C:\\Users\\Luca\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Luca\\.nuget\\packages\\valueobject\\0.6.1\\valueobject.0.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,7 +1,0 @@
-{
-  "Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\git\\ddd-calibration\\src\\ddd.Core",
-  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\git\\ddd-calibration\\src\\ddd.Infrastructure",
-  "SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel",
-  "UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\git\\ddd-calibration\\tests\\ddd.UnitTests",
-  "Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\git\\ddd-calibration\\src\\ddd.Web"
-}
