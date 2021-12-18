@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XNTWMk8WNhyMUAhRXqDNBkNcZWQPPmHsil0YVteFDDxCyUwbO8mIwXx9q3r0AD6WSvYRCMlEntRvXL2ledvOpA==",
+  "success": true,
+  "projectFilePath": "D:\\git\\ddd-calibration\\src\\ddd.SharedKernel\\ddd.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luca\\.nuget\\packages\\ardalis.specification\\5.2.0\\ardalis.specification.5.2.0.nupkg.sha512",
+    "C:\\Users\\Luca\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
