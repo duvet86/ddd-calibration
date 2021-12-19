@@ -10,3 +10,14 @@ D:\git\CleanArchi\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.Shared
 D:\git\CleanArchi\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.dll
 D:\git\CleanArchi\src\CleanArchi.SharedKernel\obj\Debug\net6.0\ref\CleanArchi.SharedKernel.dll
 D:\git\CleanArchi\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.pdb
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\bin\Debug\net6.0\CleanArchi.SharedKernel.deps.json
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\bin\Debug\net6.0\CleanArchi.SharedKernel.dll
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\bin\Debug\net6.0\ref\CleanArchi.SharedKernel.dll
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\bin\Debug\net6.0\CleanArchi.SharedKernel.pdb
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.AssemblyInfoInputs.cache
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.AssemblyInfo.cs
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.csproj.CoreCompileInputs.cache
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.dll
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\ref\CleanArchi.SharedKernel.dll
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.pdb
