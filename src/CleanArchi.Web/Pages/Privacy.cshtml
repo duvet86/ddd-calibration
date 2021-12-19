@@ -1,0 +1,20 @@
+﻿@page
+@model CleanArchi.Web.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "Privacy";
+}
+
+<div>Privacy</div>
+
+<script>
+    fetch("/Authenticate", {
+        credentials: "same-origin"
+    })
+        .then((resp) => resp.json())
+        .then((data) => {
+            console.log(data);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+</script>

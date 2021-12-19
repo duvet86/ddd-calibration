@@ -1240,3 +1240,6 @@ D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\CleanArchi.Web.dll
 D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\ref\CleanArchi.Web.dll
 D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\CleanArchi.Web.pdb
 D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\CleanArchi.Web.genruntimeconfig.cache
+D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\git\ddd-calibration\src\CleanArchi.Web\obj\Debug\net6.0\scopedcss\projectbundle\CleanArchi.Web.bundle.scp.css
+D:\git\ddd-calibration\src\CleanArchi.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

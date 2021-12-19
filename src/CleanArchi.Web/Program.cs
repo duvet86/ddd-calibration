@@ -1,4 +1,5 @@
 ﻿using System.Net.Mime;
+using System.Text;
 using Ardalis.ListStartupServices;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
@@ -7,60 +8,81 @@ using CleanArchi.Core.Interfaces;
 using CleanArchi.Infrastructure;
 using CleanArchi.Infrastructure.Data;
 using CleanArchi.Infrastructure.Identity;
-using CleanArchi.Web.Configuration;
 using CleanArchi.Web.HealthChecks;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using NuGet.Protocol;
+using IdentityConstants = CleanArchi.Infrastructure.Identity.IdentityConstants;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Logging.AddConsole();
-
+// Start Autofac
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
-//builder.Services.Configure<CookiePolicyOptions>(options =>
-//{
-//    options.CheckConsentNeeded = context => true;
-//    options.MinimumSameSitePolicy = SameSiteMode.None;
-//});
-
-// SqlLite
-//builder.Services.AddDbContext(builder.Configuration.GetConnectionString("SqliteConnection"));
-
+// Start App DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add Identity DbContext
-builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+builder.Services.AddDbContext<IdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-builder.Services.AddCookieSettings();
+var signingKey = Encoding.ASCII.GetBytes(IdentityConstants.JWT_SECRET_KEY);
 
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.Cookie.HttpOnly = true;
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-        options.Cookie.SameSite = SameSiteMode.Lax;
+        options.Cookie.IsEssential = true;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.Events = new CookieAuthenticationEvents
+        {
+            OnRedirectToLogin = redirectContext =>
+            {
+                redirectContext.HttpContext.Response.StatusCode = 401;
+                return Task.CompletedTask;
+            }
+        };
+    })
+    .AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(signingKey),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
     });
 
 builder.Services
     .AddIdentity<ApplicationUser, IdentityRole>()
     .AddDefaultUI()
-    .AddEntityFrameworkStores<AppIdentityDbContext>()
+    .AddEntityFrameworkStores<IdentityDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.SignIn.RequireConfirmedEmail = false;
+    options.SignIn.RequireConfirmedAccount = false;
+    options.Lockout.AllowedForNewUsers = false;
+});
 
 builder.Services.AddScoped<ITokenClaimsService, IdentityTokenClaimService>();
 
 // Add memory cache services
 builder.Services.AddMemoryCache();
 
-builder.Services.AddControllersWithViews().AddNewtonsoftJson();
+//builder.Services.AddControllersWithViews().AddNewtonsoftJson();
+builder.Services.AddControllers();
 builder.Services.AddRazorPages();
 
 builder.Services.AddHttpContextAccessor();
@@ -84,13 +106,11 @@ builder.Services.Configure<ServiceConfig>(config =>
     config.Path = "/listservices";
 });
 
-
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
     containerBuilder.RegisterModule(new DefaultCoreModule());
     containerBuilder.RegisterModule(new DefaultInfrastructureModule(builder.Environment.EnvironmentName == "Development"));
 });
-
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -125,14 +145,15 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseExceptionHandler("/Home/Error");
+    //app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 app.UseRouting();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCookiePolicy();
+//app.UseCookiePolicy();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -144,7 +165,7 @@ app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1")
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapDefaultControllerRoute();
+    endpoints.MapControllers();
     endpoints.MapRazorPages();
     endpoints.MapHealthChecks("home_page_health_check", new HealthCheckOptions { Predicate = check => check.Tags.Contains("homePageHealthCheck") });
     endpoints.MapHealthChecks("api_health_check", new HealthCheckOptions { Predicate = check => check.Tags.Contains("apiHealthCheck") });
@@ -159,9 +180,11 @@ using (var scope = app.Services.CreateScope())
 
     try
     {
-        var context = services.GetRequiredService<AppDbContext>();
+        var appContext = services.GetRequiredService<AppDbContext>();
+        appContext.Database.EnsureCreated();
 
-        context.Database.EnsureCreated();
+        var identityContext = services.GetRequiredService<IdentityDbContext>();
+        identityContext.Database.EnsureCreated();
 
         //SeedData.Initialize(services);
     }
@@ -173,5 +196,5 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-app.Logger.LogInformation("LAUNCHING");
+app.Logger.LogInformation("Starting app...");
 app.Run();

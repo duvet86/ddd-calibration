@@ -1,6 +1,8 @@
 ﻿using Ardalis.ApiEndpoints;
 using CleanArchi.Core.ProjectAggregate;
 using CleanArchi.SharedKernel.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -10,27 +12,32 @@ public class List : BaseAsyncEndpoint
     .WithoutRequest
     .WithResponse<ProjectListResponse>
 {
-  private readonly IReadRepository<Project> _repository;
+    private readonly IReadRepository<Project> _repository;
 
-  public List(IReadRepository<Project> repository)
-  {
-    _repository = repository;
-  }
+    public List(IReadRepository<Project> repository)
+    {
+        _repository = repository;
+    }
 
-  [HttpGet("/Projects")]
-  [SwaggerOperation(
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [HttpGet("/Projects")]
+    [SwaggerOperation(
       Summary = "Gets a list of all Projects",
       Description = "Gets a list of all Projects",
       OperationId = "Project.List",
       Tags = new[] { "ProjectEndpoints" })
   ]
-  public override async Task<ActionResult<ProjectListResponse>> HandleAsync(CancellationToken cancellationToken)
-  {
-    var response = new ProjectListResponse();
-    response.Projects = (await _repository.ListAsync()) // TODO: pass cancellation token
-        .Select(project => new ProjectRecord(project.Id, project.Name))
-        .ToList();
+    public override async Task<ActionResult<ProjectListResponse>> HandleAsync(CancellationToken cancellationToken)
+    {
+        var projects = await _repository.ListAsync(cancellationToken);
 
-    return Ok(response);
-  }
+        var response = new ProjectListResponse
+        {
+            Projects = projects
+                .Select(project => new ProjectRecord(project.Id, project.Name))
+                .ToList()
+        };
+
+        return Ok(response);
+    }
 }

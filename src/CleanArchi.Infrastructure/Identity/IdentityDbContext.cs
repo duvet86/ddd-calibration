@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchi.Infrastructure.Identity;
 
-public class AppIdentityDbContext : IdentityDbContext<ApplicationUser>
+public class IdentityDbContext : IdentityDbContext<ApplicationUser>
 {
-    public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options)
+    public IdentityDbContext(DbContextOptions<IdentityDbContext> options)
         : base(options)
     {
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jMxLPMDtlTGfRk1mGgELoPiy6XuLZbiZNmn1NHnd9S8=",
+  "Hash": "Pzdi4ujtAE9es/JbwQikEkulkZPMoj/x8In9MYkSQjY=",
   "Source": "CleanArchi.Web",
   "BasePath": "_content/CleanArchi.Web",
   "Mode": "Default",
@@ -1035,6 +1035,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Luca\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CleanArchi.Web.styles.css",
+      "SourceId": "CleanArchi.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CleanArchi.Web",
+      "RelativePath": "CleanArchi.Web.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CleanArchi.Web.styles.css"
+    },
+    {
+      "Identity": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CleanArchi.Web.bundle.scp.css",
+      "SourceId": "CleanArchi.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CleanArchi.Web",
+      "RelativePath": "CleanArchi.Web.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CleanArchi.Web.bundle.scp.css"
     },
     {
       "Identity": "D:\\git\\ddd-calibration\\src\\CleanArchi.Web\\wwwroot\\css\\site.css",
