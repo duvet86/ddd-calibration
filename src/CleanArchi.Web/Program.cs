@@ -181,10 +181,10 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var appContext = services.GetRequiredService<AppDbContext>();
-        appContext.Database.EnsureCreated();
+        appContext.Database.Migrate();
 
         var identityContext = services.GetRequiredService<IdentityDbContext>();
-        identityContext.Database.EnsureCreated();
+        identityContext.Database.Migrate();
 
         //SeedData.Initialize(services);
     }
