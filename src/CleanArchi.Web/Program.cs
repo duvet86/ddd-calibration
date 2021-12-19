@@ -181,12 +181,18 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var appContext = services.GetRequiredService<AppDbContext>();
+
+        // Replace with dotnet ef migrations bundle,
+        // https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/applying?tabs=dotnet-core-cli
         appContext.Database.Migrate();
 
         var identityContext = services.GetRequiredService<IdentityDbContext>();
+
+        // Replace with dotnet ef migrations bundle,
+        // https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/applying?tabs=dotnet-core-cli
         identityContext.Database.Migrate();
 
-        //SeedData.Initialize(services);
+        await IdentitySeedData.SeedRolesAsync(services);
     }
     catch (Exception ex)
     {

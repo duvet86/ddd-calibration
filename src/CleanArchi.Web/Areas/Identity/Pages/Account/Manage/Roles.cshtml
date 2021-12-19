@@ -1,0 +1,37 @@
+﻿@page
+@model CleanArchi.Web.Areas.Identity.Pages.Account.Manage.RolesModel
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Roles;
+}
+<h1>Role Manager</h1>
+<form id="role" method="post">
+    <div class="form-floating">
+        <input asp-for="Input.Role" class="form-control" autocomplete="username" aria-required="true" />
+        <label asp-for="Input.Role" class="form-label"></label>
+        <span asp-validation-for="Input.Role" class="text-danger"></span>
+    </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div>
+        <button id="role-submit" type="submit" class="btn btn-info">Add Role</button>
+    </div>
+</form>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model.Roles)
+        {
+            <tr>
+                <td>@role.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
