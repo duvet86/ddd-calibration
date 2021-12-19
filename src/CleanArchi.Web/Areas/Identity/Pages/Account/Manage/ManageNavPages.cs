@@ -19,6 +19,7 @@ public static class ManageNavPages
     public static string Index => "Index";
 
     public static string Roles => "Roles";
+    public static string Users => "Users";
 
     /// <summary>
     ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -69,6 +70,7 @@ public static class ManageNavPages
     public static string IndexNavClass(ViewContext viewContext) => PageNavClass(viewContext, Index);
 
     public static string RolesNavClass(ViewContext viewContext) => PageNavClass(viewContext, Roles);
+    public static string UsersNavClass(ViewContext viewContext) => PageNavClass(viewContext, Users);
 
     /// <summary>
     ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used

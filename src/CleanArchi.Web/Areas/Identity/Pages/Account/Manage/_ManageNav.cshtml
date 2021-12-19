@@ -16,5 +16,6 @@
     @if (isAdmin)
     {
         <li class="nav-item"><a class="nav-link @ManageNavPages.RolesNavClass(ViewContext)" id="roles" asp-page="./Roles">Roles</a></li>
+        <li class="nav-item"><a class="nav-link @ManageNavPages.UsersNavClass(ViewContext)" id="users" asp-page="./Users">Users</a></li>
     } 
 </ul>
