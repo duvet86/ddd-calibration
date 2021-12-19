@@ -4,6 +4,7 @@ D:\git\ddd-calibration\src\CleanArchi.Core\bin\Debug\net6.0\ref\CleanArchi.Core.
 D:\git\ddd-calibration\src\CleanArchi.Core\bin\Debug\net6.0\CleanArchi.Core.pdb
 D:\git\ddd-calibration\src\CleanArchi.Core\bin\Debug\net6.0\CleanArchi.SharedKernel.dll
 D:\git\ddd-calibration\src\CleanArchi.Core\bin\Debug\net6.0\CleanArchi.SharedKernel.pdb
+D:\git\ddd-calibration\src\CleanArchi.Core\obj\Debug\net6.0\CleanArchi.Core.csproj.AssemblyReference.cache
 D:\git\ddd-calibration\src\CleanArchi.Core\obj\Debug\net6.0\CleanArchi.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\git\ddd-calibration\src\CleanArchi.Core\obj\Debug\net6.0\CleanArchi.Core.AssemblyInfoInputs.cache
 D:\git\ddd-calibration\src\CleanArchi.Core\obj\Debug\net6.0\CleanArchi.Core.AssemblyInfo.cs

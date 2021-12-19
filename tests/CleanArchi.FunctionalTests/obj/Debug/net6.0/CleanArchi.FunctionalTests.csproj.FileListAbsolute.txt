@@ -517,6 +517,7 @@ D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\CleanAr
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\CleanArchi.Web.deps.json
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\CleanArchi.Web.runtimeconfig.json
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\appsettings.json
+D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\libman.json
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\CleanArchi.Web.staticwebassets.runtime.json
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\CleanArchi.Web.exe
 D:\git\ddd-calibration\tests\CleanArchi.FunctionalTests\bin\Debug\net6.0\xunit.runner.json
