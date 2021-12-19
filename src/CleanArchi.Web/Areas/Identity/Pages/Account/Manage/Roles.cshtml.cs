@@ -47,8 +47,6 @@ public class RolesModel : PageModel
 
         await _rolesManager.CreateAsync(new IdentityRole(Input.Role));
 
-        Roles = _rolesManager.Roles.ToList();
-
         return RedirectToPage();
     }
 }

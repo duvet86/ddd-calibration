@@ -34,7 +34,7 @@ public static class IdentitySeedData
 
             if (result.Succeeded)
             {
-                await userManager.AddToRoleAsync(adminUser, IdentityEnums.Roles.Admin.ToString());
+                await userManager.AddToRoleAsync(adminUser, IdentityConstants.ADMIN_ROLE);
             }
         }
     }
