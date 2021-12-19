@@ -21,3 +21,4 @@ D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.S
 D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.dll
 D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\ref\CleanArchi.SharedKernel.dll
 D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.pdb
+D:\git\ddd-calibration\src\CleanArchi.SharedKernel\obj\Debug\net6.0\CleanArchi.SharedKernel.csproj.AssemblyReference.cache

@@ -1,20 +1,8 @@
 ﻿@page
-@model CleanArchi.Web.Pages.PrivacyModel
+@model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy";
+    ViewData["Title"] = "Privacy Policy";
 }
+<h1>@ViewData["Title"]</h1>
 
-<div>Privacy</div>
-
-<script>
-    fetch("/Authenticate", {
-        credentials: "same-origin"
-    })
-        .then((resp) => resp.json())
-        .then((data) => {
-            console.log(data);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
-</script>
+<p>Use this page to detail your site's privacy policy.</p>
